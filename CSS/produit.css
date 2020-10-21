@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    height: 150vh;
+    width: 100%-250px;
+}
+.main .produit {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+.main .img {
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-right: 25px;
+    height: 60vh;
+    width: 30vw;
+    background-color: lightgrey;
+}
+.main .caracteristiques {
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-right: 25px;
+    height: 60vh;
+    width: 30vw;
+    background-color: red;
+}
+.main .caracteristiques .prix {
+    display: flex;
+    margin-top: 70%;
+    margin-left: 25%;
+}
+.main .caracteristiques button{
+    height: 40px;
+    width: 100px;
+}
+.main .caracteristiques h3 {
+    font-size: 20px;
+    color: black;
+    margin-top: 2%;
+    margin-left: 20px;
+}
+.main .description {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 50vh;
+    width: 100%;
+    background-color: lightgreen;
+}

@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main .first {
+    background-color: #90a4ae;
+    height: 100vh;
+}
+.main .first h1 {
+    padding-top: 10vh;
+    text-align: center;
+}
+.main .first h5 {
+    margin-top: 10vh;
+    text-align: center;
+}
+.main .first .diapo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.main .first .diapo .left {
+    font-size: 50px;
+}
+.main .first .diapo .right {
+    font-size: 50px;
+}
+.main .first button {
+    width: 18%;
+    height: 13%;
+    margin: 15vh 41% 45vh 41%;
+    background-color: #00695c;
+    border-radius: 20px;
+    border: 4px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.main .second {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow-wrap: break-word;
+    flex-grow: 0; 
+}
+.main .second .card {
+    margin: 20px 20px 40px 20px;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.main .second .card .img{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.main .second .livres {
+    width: 30%;
+}
+.main .second .accessoires {
+    width: 30%; 
+}
+.main .second .mode {
+    width: 30%;
+}
+.main .second .lien {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.main .third {
+    background-color:#78909c;
+    height: 70vh;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.main .third .about {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.main .third .about p {
+    overflow-wrap: break-word;
+    margin-left: 150px;
+    margin-top: 120px;
+    width: 40%;
+}
+.main .third .about .img {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin-right: 150px;
+    margin-top: 50px;
+}

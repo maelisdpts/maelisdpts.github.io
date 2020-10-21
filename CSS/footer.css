@@ -1,0 +1,34 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer {
+    height: 250px;
+    background-color: #455a64;
+    display: flex;
+}
+
+.footer .nav {
+    padding-top: 90px;
+    margin-left: 100px;
+}
+.footer .nav li {
+    list-style: none;
+}
+.footer .nav a {
+    color: white;
+    text-decoration: none;
+}
+.footer .newsletter {
+    padding-top: 90px;
+    margin-left: 50%;
+}
+.footer .newsletter h5 {
+    font-size: 20px;
+}
+.footer .newsletter input{
+    height: 30px;
+    width: 200px;
+    margin-left: 30px;
+}

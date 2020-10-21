@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+ 
+.main {
+    padding: 50px 5vw 50px 5vw;
+    display: flex;
+    justify-content: space-between;
+} 
+.main .info {
+    background-color: grey;
+    width: 15vw;
+    height: 50vh;
+    margin-top: 5%;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+.main .info li {
+    list-style: none;
+    color: black;
+}
+.main .produit {
+    width: 65vw;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+.main .products .lig0 {
+    display: flex;
+    justify-content: space-between;
+}
+.main .products .lig1 {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .products .lig2 {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .products .lig3 {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .products .lig4 {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .products .product {
+    background-color: lightslategrey;
+    width: 23%;
+    height: 250px;/*height: 20%;*/
+} 
+.main .products .product .img {
+    background-color: black;
+    margin: 10px;
+    height: 80%;
+}
+.main .products .product .text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main .products .product .text h2 {
+    padding-left: 10px;
+}
+.main .products .product .text h3 {
+    padding-right: 10px;
+    padding-top: 5px;
+}

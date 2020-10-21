@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main .first {
+    background-color: lightblue;
+    height: 80vh;
+}
+.main .first h1 {
+    padding-top: 10vh;
+    text-align: center;
+}
+.main .first h5 {
+    margin-top: 10vh;
+    text-align: center;
+}
+.main .first button {
+    width: 18%;
+    height: 13%;
+    margin: 20vh 41% 45vh 41%;
+}
+
+.main .second {
+    background-color: black;
+    height: 80vh;
+    color: white;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.main .second a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+.main .third {
+    background-color: blue;
+    height: 80vh;
+}
