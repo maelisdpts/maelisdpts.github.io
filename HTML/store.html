@@ -4,7 +4,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS/header.css">
         <link rel="stylesheet" type="text/css" href="../CSS/footer.css">
         <link rel="stylesheet" type="text/css" href="../CSS/store.css">
-
+        <meta charset="UTF-8">
     </head>  
     <body>
         <div id="header">
@@ -14,37 +14,30 @@
             <div class="info">
                 <ul>
                     <li> <p> PRODUITS </p> </li>
-                    <li> <input type="checkbox"> Vêtements </input> </li>
-                    <li> <input type="checkbox"> Accessoires </input> </li>
-                    <li> <input type="checkbox"> Livres </input> </li>
+                    <li> <input type="radio" name="1" id="Vetements"> Vêtements </input> </li>
+                    <li> <input type="radio" name="1" id="Accessoires"> Accessoires </input> </li>
+                    <li> <input type="radio" name="1" id="Ordinateurs"> Ordinateurs </input> </li>
                     <br><br>
                     <li> <p> PRIX </p> </li>
-                    <li> <input type="checkbox"> Tout prix </input> </li>
-                    <li> <input type="checkbox"> 0€ - 10€ </input> </li>
-                    <li> <input type="checkbox"> 10€ - 50€ </input> </li>
-                    <li> <input type="checkbox"> 50€ - 100€ </input> </li>
+                    <li> <input type="radio" id="prix"> 0€ - 10€ </input> </li>
+                    <li> <input type="radio" id="prix"> 10€ - 50€ </input> </li>
+                    <li> <input type="radio" id="prix"> 50€ - 100€ </input> </li>
                     <br><br>
-                    <li> <input type="submit" value="Appliquer" onclick="start()"> </input></li>
+                    <li> <input type="submit" value="Appliquer" onclick="selection()"> </input></li>
                 </ul>
 
             </div>
-            <div id="produit">
+            <div class="produit" id="produit">
                 
             </div>
         </main>
-        <footer class="footer">
-            <nav class="nav">
-                <ul>
-                    <li><a href="main.html"> Home </a></li>
-                    <li><a href="#"> Store </a></li>
-                    <li><a href="#"> Blog </a></li>
-                    <li><a href="main.html"> About </a></li>
-                </ul>
-            </nav>
+        <footer class="footer" id="footer">
 
         </footer>
 
         <script src="../JS/header.js"></script>
+        <script src="../JS/connexion.js"></script>
         <script src="../JS/store.js"></script>
+  <!--<script src="../JS/footer.js"></script>-->
     </body>
 </html>

@@ -46,9 +46,6 @@
     cursor: pointer;
 }
 
-
-
-
 .overlay {
     position: fixed;
     left: 0px;
@@ -62,17 +59,45 @@
 
 .popup{
     margin: 10% auto;
-    width : 70%;
-    background-color: rgb(243, 243, 243);
+    width : 30%;
+    height: 40%;
+    background-color: white;
     padding: 1em;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
 
-.btnClose {
-    margin-left: 99%;
-    margin-bottom: 99%;
-    font-size:16pt;
+.popup .quitter {
+    float: right;
     cursor: pointer;
-    color: rgb(26, 26, 26);
+}
+.popup form {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.popup form .cacher {
+    visibility: hidden;
+}
+.popup form .valider {
+    width: 60%;
+}
+.popup button {
+    width: 30%;
+    height: 15%;
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+.popup .articles {
+    padding-top: 25px;
+}
+.popup .ligne {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.popup .ligne .supprimer {
+    float: right;
+    cursor: pointer;
 }

@@ -1,5 +1,6 @@
 var nb_slide = 1
 
+// Renvoie un diaporama
 function diapo(side) {
 
     if (side == "left") {
