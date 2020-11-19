@@ -13,6 +13,8 @@ Nous avons utilisé la plateforme Github pour nous partagé les dossiers, faisan
 
 Pour se faire, nous avons commencé par les bases, avec un code HTML et CSS, pour creer le squelette de notre site.
 
+-------------------------------
+
 ## les codes HTML et CSS
 
 le principale code du HTML est le code __main.html__, qui code la page d'acceuil de notre site,  et qui est rattaché au code __main.css__, qui code la mise en page de ce dernier.  
