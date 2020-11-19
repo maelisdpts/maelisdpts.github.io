@@ -13,10 +13,9 @@ Nous avons utilisé la plateforme Github pour nous partagé les dossiers, faisan
 
 Pour se faire, nous avons commencé par les bases, avec un code HTML et CSS, pour creer le squelette de notre site.
 
-le principale code du HTML est le code main.html, qui code la page d'acceuil de notre site,  et qui est rattaché au code main.css, qui code la mise en page de ce dernier. 
-
 ## les codes HTML et CSS
 
+le principale code du HTML est le code main.html, qui code la page d'acceuil de notre site,  et qui est rattaché au code main.css, qui code la mise en page de ce dernier. 
 Par soucis pratique, Nous avons aussi fait une page css pour l'en-tête et le bas de page (header et footer) qui sont reliées à toutes nos pages HTML pour coder ses dernier: header.css et footer.css, afin à ne pas avoir à les recoder pour chaque page. 
 Le code store.html est ensuite venu pour réaliser une interface où le client peut faire ses achats, donc  qui affiche les différents produits de notre future base de donnée, ainsi qu'une interface où le client peut faire des choix comme savoir s'il veut des vêtements, des livres, etc..., il est rattaché au css par store.css.
 Pour finir, le code produit.html code la page de présentation de chaque produit, rattaché au code produit.css pour le css.
