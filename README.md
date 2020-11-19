@@ -40,4 +40,5 @@ Nous avons mis les images que nous utilisons dans un dossier assert pour les avo
 Il a ensuite fallu trouver les différents produits, que nous avons classés avec leurs caractéristiques sur un tableau SQL, que nous avons relié à notre code pour les faire apparaitre sur le site. 
 
 Une fois, fini, nous avons finalisé avec de la mise en page, puis les codes ont été mis sur l'hebergement en ligne, et notre site a été créer.
+
 --------------
