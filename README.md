@@ -15,12 +15,12 @@ Pour se faire, nous avons commencé par les bases, avec un code HTML et CSS, pou
 
 ## les codes HTML et CSS
 
-le principale code du HTML est le code main.html, qui code la page d'acceuil de notre site,  et qui est rattaché au code main.css, qui code la mise en page de ce dernier. 
-Par soucis pratique, Nous avons aussi fait une page css pour l'en-tête et le bas de page (header et footer) qui sont reliées à toutes nos pages HTML pour coder ses dernier: header.css et footer.css, afin à ne pas avoir à les recoder pour chaque page. 
-Le code store.html est ensuite venu pour réaliser une interface où le client peut faire ses achats, donc  qui affiche les différents produits de notre future base de donnée, ainsi qu'une interface où le client peut faire des choix comme savoir s'il veut des vêtements, des livres, etc..., il est rattaché au css par store.css.
-Pour finir, le code produit.html code la page de présentation de chaque produit, rattaché au code produit.css pour le css.
-La page blog.html code une page additionelle qui nous est venue à l'esprit lors de la mise en forme du site, pour parler de notre projet ( on y retrouvera la doc), elle est mise en page par le code blog.css.
-La page about.html présente elle aussi le projet mais de manière plus concise pour le client, elle est mise en page par le code about.css.
+le principale code du HTML est le code __main.html__, qui code la page d'acceuil de notre site,  et qui est rattaché au code __main.css__, qui code la mise en page de ce dernier.
+Par soucis pratique, Nous avons aussi fait une page css pour l'en-tête et le bas de page (header et footer) qui sont reliées à toutes nos pages HTML pour coder ses dernier: __header.css__ et __footer.css__, afin à ne pas avoir à les recoder pour chaque page. Elles sont appelées dans toutes nos pages HTML. 
+Le code __store.html__ est ensuite venu pour nous permettre de réaliser une interface où le client peut faire ses achats, donc  qui affiche les différents produits de notre future base de donnée, ainsi qu'une interface où le client peut faire des choix comme savoir s'il veut des vêtements, des livres, etc..., il est rattaché au css par __store.css__ (qui le met en page).
+Pour finir, le code __produit.html__ code la page de présentation de chaque produit, rattaché au code __produit.css__ pour sa mise en page. Pour que la page ne soit codée qu'une fois pour correspondre aux différents produits, nous avons codé avec HTML que les différents intitulé des description et informations importantes dont le client aura besoin pour ses achats, que nous compléteront plus tard grâce au javascript et les bases de données, qui pour chaque produit, indiqueront par exemple son pris ou sa provenance. 
+La page __blog.html__ code une page additionelle qui nous est venue à l'esprit lors de la mise en forme du site, pour parler de notre projet (on y retrouvera la doc par exemple). Nous aimerions y ajouter une interface pour ajouter d'autre article, afin d'entretenir notre blog et nos clients au courant. Elle est mise en page par le code __blog.css__.
+La page __about.html__ présente elle  le projet mais de manière plus concise pour le client, nous présentant en quelque mots, ainsi que les circonstances de créations du site.  Elle est mise en page par le code __about.css__.
 
 ## les codes javascript, php et les bases de données
 
