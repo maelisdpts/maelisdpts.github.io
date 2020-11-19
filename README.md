@@ -34,6 +34,8 @@ Le code main.js est appelé par le code main.html et renvoie les images sous fro
 Le code store.js qui fait appel au code store.php code l'interface d'achat du site, où le client découvre les produits, par le code HTML (par le php), et renvoie le client vers une page contenant les caractéristiques du produit lorqu'il clique sur l'un d'entre eux.
 Pour finir, le code produit.js est lui appelé par le code produit.html et creer la partie html de la page grâce au code produit.php, qui appelle à la base de donnée, et permet de signaler un achat grâce au code achat.php, ajoutant le nouveau produit au panier quand l'achat a lieu.
 
+## finalisation du projet
+
 Nous avons mis les images que nous utilisons dans un dossier assert pour les avoir avec le reste du code. 
 Il a ensuite fallu trouver les différents produits, que nous avons classés avec leurs caractéristiques sur un tableau SQL, que nous avons relié à notre code pour les faire apparaitre sur le site. 
 
