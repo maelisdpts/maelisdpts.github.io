@@ -23,6 +23,8 @@ Pour finir, le code produit.html code la page de présentation de chaque produit
 La page blog.html code une page additionelle qui nous est venue à l'esprit lors de la mise en forme du site, pour parler de notre projet ( on y retrouvera la doc), elle est mise en page par le code blog.css.
 La page about.html présente elle aussi le projet mais de manière plus concise pour le client, elle est mise en page par le code about.css.
 
+## les codes javascript, php et les bases de données
+
 Nous sommes ensuite passés au javascript et au php, qui permettent l'accès à nos bases de données et dynamique de notre site, permettant d'exécuter des commandes du côté client. 
 Dans toutes nos pages HTML, nous avons fait appel aux codes header.js et footer.js, qui correspondent à l'en-tête et le pied de page.
 Le code header.js fait appel aux codes php pour son fond: il fait appel au header.php qui renvoie le code HTML du header, creant des liens vers la page d'accueil, la page des produits, le blog et la page about us accessible à partir de toutes les autres pages.Elle crée le header, l'icone de shopping avec le code panier.php (qui renvoie le code HTML du pop-up), permet de supprimer un élément du panier grâce au code supprimer.php et de payer le panier, nous ne faisons pas de système de payement, donc le code permet juste de vider le panier et de confirmer l'achat.
