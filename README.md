@@ -35,6 +35,8 @@ Le code __main.js__ est appelé par le code __main.html__ et renvoie les images 
 Le code __store.js__ qui fait appel au code __store.php__ code les interactions clients-site de l'interface d'achat du site, où le client découvre les produits, par le code HTML (par le php), et renvoie le client vers une page contenant les caractéristiques du produit lorqu'il clique sur l'un d'entre eux.  
 Pour finir, le code __produit.js__ est lui appelé par le code __produit.html__ et creer la partie html de la page grâce au code __produit.php__, qui appelle à la base de donnée, et permet de signaler un achat grâce au code __achat.php__, ajoutant le nouveau produit au panier quand l'achat a lieu.
 
+-------------------------------
+
 ## finalisation du projet
 
 Nous avons mis les images que nous utilisons dans un dossier assert pour les avoir avec le reste du code. 
