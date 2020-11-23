@@ -45,3 +45,15 @@ Il a ensuite fallu trouver les différents produits, que nous avons classés ave
 Une fois fini, nous avons finalisé avec de la mise en page, puis les codes ont été mis sur l'hebergement en ligne, eu5.org. Il a fallu importer tous nos codes et nos bases de données. Notre site n'a bien sur pas été créer pour vendre nos produits, et encore moins pour en vendre beaucoup, c'est pourquoi notre mode de fonctionnement a suffit pour réaliser ce projet. A une plus grande échelle, pour un site d'une ampleur plus importante, nous aurions surement du revoir les codes de certaines pages. Et ainsi, notre site a été créer !
 
 --------------
+
+##L'esthétique
+
+Pour la création de notre site, nous avons priviligié un design simple, permettant à l'utilisateur d'aller à l'essenciel en quelques clics, sans complication.
+Nous avons utilisé CSS pour la mise en page du site, connecté aux pages HTML. La page d'accueil possède un code HTML _main.html_, qui la renvoie au code _main.css_, _header.css_ et _footer.css_. En effet, pour ne pas avoir à recréer l'en-tête et le pied de page pour toutes les différentes pages du site, 
+
+
+
+
+
+
+
