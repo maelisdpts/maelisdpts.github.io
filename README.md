@@ -46,7 +46,7 @@ Une fois fini, nous avons finalisé avec de la mise en page, puis les codes ont 
 
 --------------
 
-##L'esthétique
+## L'esthétique
 
 Pour la création de notre site, nous avons priviligié un design simple, permettant à l'utilisateur d'aller à l'essenciel en quelques clics, sans complication.
 Nous avons utilisé CSS pour la mise en page du site, connecté aux pages HTML. La page d'accueil possède un code HTML _main.html_, qui la renvoie au code _main.css_, _header.css_ et _footer.css_. En effet, pour ne pas avoir à recréer l'en-tête et le pied de page pour toutes les différentes pages du site, 
