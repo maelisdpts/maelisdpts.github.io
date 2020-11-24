@@ -52,7 +52,10 @@ Pour la création de notre site, nous avons priviligié un design simple, permet
 Nous avons utilisé CSS pour la mise en page du site, connecté aux pages HTML. La page d'accueil possède un code HTML _main.html_, qui la renvoie au code _main.css_, _header.css_ et _footer.css_. En effet, pour ne pas avoir à recréer l'en-tête et le pied de page pour toutes les différentes pages du site, 
 
 
+## Base de donnée
 
+Pour la création de notre base de donnée, nous avons utilisé MYSQL qui permets de créer des tables stockant les données dont nous avopns besoin pour notre site. Nous avons donc créer deux tables, user et produits. La table user permet de gérer les utilisateurs possédant un compte sur notre site. Ainsi, ils peuvent se connecter s'ils ont déjà un compte existant et s'inscrire s'ils ne possèdent pas de compte. La table produits permet de lister tous les produits présents sur notre site ainsi que des informations sur les produits. Nous avons par exemple une colonne permettant de stocker les descriptions de chaque produit, une pour les prix, une pour la marque.... 
+Nous accédons à cette base de donnée grâce au language PHP qui permet à nos page web d'accéder à ces informations et ainsi de créer des pages dynamiques. 
 
 
 
