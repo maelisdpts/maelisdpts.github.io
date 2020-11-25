@@ -26,6 +26,8 @@ Pour finir, le code __produit.html__ code la page de présentation de chaque pro
 La page __blog.html__ code une page additionelle qui nous est venue à l'esprit lors de la mise en forme du site, pour parler de notre projet (on y retrouvera la doc par exemple). Nous aimerions y ajouter une interface pour ajouter d'autre article, afin d'entretenir notre blog et nos clients au courant. Elle est mise en page par le code __blog.css__. Elle garde les couleurs prédominante du site.    
 La page __about.html__ présente elle  le projet mais de manière plus concise pour le client, nous présentant en quelque mots, ainsi que les circonstances de créations du site.  Elle est mise en page par le code __about.css__, garde la même logique de mise en page que ses voisines ( couleurs, etc...)  
 
+----------------------------------------------------------------------------------------------------
+
 ## les pages php et les interactions utilisateurs-machines
 
 Nous sommes ensuite passés au javascript et au php, qui permettent l'accès à nos bases de données et de rendre dynamique notre site, permettant d'exécuter des commandes du côté client.   
@@ -39,21 +41,11 @@ Pour finir, le code __produit.js__ est lui appelé par le code __produit.html__ 
 
 -------------------------------
 
-## finalisation du projet
-
-Nous avons mis les images que nous utilisons dans un dossier assert pour les avoir avec le reste du code. 
-Il a ensuite fallu trouver les différents produits, que nous avons classés avec leurs caractéristiques dans une base de donnée SQL, que nous avons relié à notre code pour les faire apparaitre sur le site. Nous les avons rangé dans trois catégories, "livre", "technologie" et "vetements", pour faciliter l'achat pour le client. Grâce à phpmyadmin, accédé par Uwamp, nous avons pu créer nos différentes bases de données. 
-
-Une fois fini, nous avons finalisé avec de la mise en page, puis les codes ont été mis sur l'hebergement en ligne, eu5.org. Il a fallu importer tous nos codes et nos bases de données. Notre site n'a bien sur pas été créer pour vendre nos produits, et encore moins pour en vendre beaucoup, c'est pourquoi notre mode de fonctionnement a suffit pour réaliser ce projet. A une plus grande échelle, pour un site d'une ampleur plus importante, nous aurions surement du revoir les codes de certaines pages. Et ainsi, notre site a été créer !
-
---------------
-
-
 ## Base de donnée
 
-Pour la création de notre base de donnée, nous avons utilisé MYSQL qui permets de créer des tables stockant les données dont nous avopns besoin pour notre site. Nous avons donc créer deux tables, user et produits. La table user permet de gérer les utilisateurs possédant un compte sur notre site. Ainsi, ils peuvent se connecter s'ils ont déjà un compte existant et s'inscrire s'ils ne possèdent pas de compte. La table produits permet de lister tous les produits présents sur notre site ainsi que des informations sur les produits. Nous avons par exemple une colonne permettant de stocker les descriptions de chaque produit, une pour les prix, une pour la marque.... 
+Pour la création de notre base de donnée, nous avons utilisé MYSQL qui permets de créer des tables stockant les données dont nous avons besoin pour notre site. Nous avons donc créer deux tables, user et produits. La table user permet de gérer les utilisateurs possédant un compte sur notre site. Ainsi, ils peuvent se connecter s'ils ont déjà un compte existant et s'inscrire s'ils ne possèdent pas de compte. La table produits permet de lister tous les produits présents sur notre site ainsi que des informations sur les produits. Nous avons par exemple une colonne permettant de stocker les descriptions de chaque produit, une pour les prix, une pour la marque.... 
 Nous accédons à cette base de donnée grâce au language PHP qui permet à nos page web d'accéder à ces informations et ainsi de créer des pages dynamiques. 
+Nous avons mis les images que nous utilisons dans un dossier assert pour les avoir avec le reste du code. Elles ont été utile pour illuster les produits notamment. 
+Il a ensuite fallu trouver les différents produits, que nous avons classés avec leurs caractéristiques dans une base de donnée SQL, que nous avons relié à notre code pour les faire apparaitre sur le site. Nous les avons rangé dans trois catégories, "livre", "technologie" et "vetements", pour faciliter l'achat pour le client. Grâce à phpmyadmin, accédé par Uwamp, nous avons pu créer nos différentes bases de données et les remplir facilement. 
 
-
-
-
+Une fois fini, nous avons finalisé avec de la mise en page, puis les codes ont été mis sur l'hebergement en ligne, eu5.org. Il a fallu importer tous nos codes et nos bases de données. Notre site n'a bien sur pas été créer pour vendre nos produits, et encore moins pour en vendre beaucoup, c'est pourquoi notre mode de fonctionnement a suffit pour réaliser ce projet. A une plus grande échelle, pour un site d'une ampleur plus importante, nous aurions surement du revoir les codes de certaines pages. Et ainsi, notre site a été créer !
