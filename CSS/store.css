@@ -51,14 +51,16 @@
     justify-content: space-between;
 }
 .main .products .product {
-    background-color: lightslategrey;
     width: 23%;
-    height: 250px;/*height: 20%;*/
+    height: 250px;
+    border: solid 2px;
 } 
 .main .products .product .img {
-    background-color: black;
+    background-color: white;
     margin: 10px;
     height: 80%;
+    overflow: hidden;
+    align-items: center;
 }
 .main .products .product .text {
     width: 100%;

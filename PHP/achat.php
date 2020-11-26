@@ -10,7 +10,7 @@ if (!isset($_SESSION["PANIER"])) {
     $_SESSION["PANIER"] = [];
 }
 
-$bdd = new PDO('mysql:host=localhost;dbname=website', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=website', 'root', 'root');
 $rep = $bdd->query('SELECT * FROM produits WHERE ID = '. $produit);
 $donnee = $rep->fetch();
 

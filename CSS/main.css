@@ -4,16 +4,23 @@
 }
 
 .main .first {
-    background-color: #90a4ae;
     height: 100vh;
+    background-image: url('../ASSETS/livre.jpg');
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
 }
 .main .first h1 {
     padding-top: 10vh;
     text-align: center;
+	color: white;
+	font-size: 85px;
 }
 .main .first h5 {
     margin-top: 10vh;
     text-align: center;
+	color: white;
+	font-size: 25px;
 }
 .main .first .diapo {
     display: flex;
@@ -79,7 +86,7 @@
 
 .main .third {
     background-color:#78909c;
-    height: 70vh;
+    height: 105vh;
     padding-top: 25px;
     padding-left: 25px;
 }
@@ -91,12 +98,12 @@
 .main .third .about p {
     overflow-wrap: break-word;
     margin-left: 150px;
-    margin-top: 120px;
+    margin-top: 60px;
     width: 40%;
 }
 .main .third .about .img {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     background-color: black;
     margin-right: 150px;
     margin-top: 50px;

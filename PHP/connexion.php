@@ -6,7 +6,7 @@ session_start();
 $nom = $_POST["Nom"];
 $mdp = $_POST["Mdp"];
 
-$bdd = new PDO('mysql:host=localhost;dbname=website', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=website', 'root', 'root');
 
 if (!empty($nom) && !empty($mdp)) {
     $rep = $bdd->prepare('SELECT * FROM user WHERE Nom = ? AND Mdp = ?');

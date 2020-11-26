@@ -39,6 +39,14 @@ function supprimer(id) {
 
 // Permet de payer le panier
 function payer() {
-    alert('Vous avez bien achter les produits');
-    //document.location = '../HTML/payer.html';s
+    var paye = new XMLHttpRequest();
+    paye.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            alert(paye.responseText);
+        }
+    }
+    paye.open('POST', '../PHP/paye.php', true);
+    paye.send();
+    alert('Vous avez bien acheter les produits');
+    document.location = '../HTML/main.html';
 }

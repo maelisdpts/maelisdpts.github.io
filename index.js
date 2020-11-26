@@ -1,0 +1,1 @@
+document.location = 'HTML/main.html'
