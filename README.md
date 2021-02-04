@@ -49,3 +49,9 @@ Nous avons mis les images que nous utilisons dans un dossier assert pour les avo
 Il a ensuite fallu trouver les différents produits, que nous avons classés avec leurs caractéristiques dans une base de donnée SQL, que nous avons relié à notre code pour les faire apparaitre sur le site. Nous les avons rangé dans trois catégories, "livre", "technologie" et "vetements", pour faciliter l'achat pour le client. Grâce à phpmyadmin, accédé par Uwamp, nous avons pu créer nos différentes bases de données et les remplir facilement. 
 
 Une fois fini, nous avons finalisé avec de la mise en page, puis les codes ont été mis sur l'hebergement en ligne, eu5.org. Il a fallu importer tous nos codes et nos bases de données. Notre site n'a bien sur pas été créer pour vendre nos produits, et encore moins pour en vendre beaucoup, c'est pourquoi notre mode de fonctionnement a suffit pour réaliser ce projet. A une plus grande échelle, pour un site d'une ampleur plus importante, nous aurions surement du revoir les codes de certaines pages. Et ainsi, notre site a été créer !
+
+-------------------------
+
+## API
+
+Pour notre projet du second trimestre, nous avons du ajouter une API. Pour cela, il nous a fallu trouver une API de site e-commerce libre d'accès, ce qui s'est étrangement trouvé plus dur qu'on aurait pu le penser. Une fois l'API trouvée, nous avons dû l'incorporer dans notre site par le biai du code javascript __store.js__ ou encore directement dans le code HTML __strore.html__ dans lequel nous avons mis nos code javascript, car il était plus facile pour nous de les appeler. Nous avons dû ensuite relié les différents éléments de notre API à notre base de donnée pour les faire concorder et faire apparaitre les éléments de l'API dans la base de donnée. AInsi, nous avons pu faire appel grace a la fonction GET à une API extérieure pour alimenter les différents produits de notre site.
