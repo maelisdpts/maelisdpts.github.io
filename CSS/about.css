@@ -39,3 +39,14 @@
     background-color: blue;
     height: 80vh;
 }
+
+.main .third .about .img {
+    width: 150px;
+    height: 150px;
+	text-align: center;
+    /*background-color: black;*/
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-right: 350px;
+    margin-left: 350px;
+}
