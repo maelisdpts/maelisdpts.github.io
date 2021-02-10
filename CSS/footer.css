@@ -4,14 +4,39 @@
 }
 
 .footer {
-    height: 250px;
+    height: 350px;
     background-color: #455a64;
-    display: flex;
 }
-
+.footer h1 {
+    padding-top: 25px;
+    text-align: center;
+}
+.footer .newsletter {
+    padding-top: 20px;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+}
+.footer .newsletter h5 {
+    font-size: 20px;
+}
+.footer .newsletter .inscription{
+    height: 30px;
+    width: 250px;
+    margin-left: 10px;
+}
+.footer .newsletter .submit {
+    height: 30px;
+    width: 125px;
+    margin-left: 10px;
+}
+.footer .footer_menu{
+    display: flex;
+    justify-content: space-between;
+}
 .footer .nav {
     padding-top: 90px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 .footer .nav li {
     list-style: none;
@@ -20,15 +45,16 @@
     color: white;
     text-decoration: none;
 }
-.footer .newsletter {
-    padding-top: 90px;
-    margin-left: 50%;
+.footer .footer_menu .logo {
+    text-decoration: none;
+    color: white;
+    margin-right: 20%;
+    margin-top: 8%;
+    font-size: 35px;
 }
-.footer .newsletter h5 {
-    font-size: 20px;
-}
-.footer .newsletter input{
-    height: 30px;
-    width: 200px;
-    margin-left: 30px;
+.footer hr {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: lightgrey;
 }
